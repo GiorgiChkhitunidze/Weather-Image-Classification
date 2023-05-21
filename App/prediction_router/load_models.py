@@ -10,7 +10,7 @@ def get_model():
         param.requires_grad = False
     num_ftrs = model.classifier.in_features
     model.classifier = nn.Linear(num_ftrs, 11)
-    model.load_state_dict(torch.load("../app/Models/densenet1.pt", device))
+    model.load_state_dict(torch.load("../app/model/densenet_fine_tuned.pt", device))
     return model
 
 

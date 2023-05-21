@@ -13,6 +13,7 @@ def read_image(file: Image.Image):
 def preprocess(image: Image.Image):
     image = image.convert('RGB').resize((224,224), Image.NEAREST)
     image = torch.tensor(np.array(image).reshape((3, 224, 224)), dtype=torch.float32)
+    image = image/255.
     return image
 
 
