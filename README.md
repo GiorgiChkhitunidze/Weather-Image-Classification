@@ -8,5 +8,5 @@ I built custom model from scratch and compared it to several popular pretrained 
 You can check *weather-prediction.ipynb* on this <a href="https://nbviewer.org/github/GiorgiChkhitunidze/Weather-Recognition/blob/main/weather-prediction.ipynb#imports">nbviewer link</a> without any rendering problem.
 
 ### Built Weather Image Classifier App Using FastAPI
-In the folder **App** I built simple Weather Prediction App using FastAPI which can be run on uvicorn server.
+In the folder ***App*** I built simple Weather Prediction App using FastAPI which can be run on uvicorn server.
 Here you can see how the app works:
