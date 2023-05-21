@@ -1,0 +1,32 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Prediction App</title>
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link href="{{ url_for('static', path='/post_style.css') }}" rel="stylesheet">
+
+</head>
+<body>
+    <img class="bg" src="/static/woman-1245817.jpg" alt="">
+    <div class='image_container'>
+        <img src = {{image_path}}>
+    </div>
+    <div class=output_div>
+        <p id="p1">
+            <strong>
+                {{content1}}
+            </strong>
+        </p>
+    </div>
+    <div class="form">
+        <form method="post" action="/">
+            <input type="submit" id="homepage" style="display:none"/>
+            <label for="homepage">
+                <i class="fa-solid fa-repeat"></i> &nbsp; Make Another Prediction
+            </label>
+        </form>
+    </div>
+</body>
