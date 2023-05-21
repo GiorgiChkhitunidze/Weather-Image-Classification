@@ -54,15 +54,22 @@ label {
     text-align: center;
     margin: 20px 0 30px 0;
 }
-#images{
-    width: 90%;
+
+.images{
+    width: 100%;
     position: relative;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    gap: 20px;
-    flex-wrap: wrap;
 }
+
+#images{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 figure{
     width: 85%;
 }
