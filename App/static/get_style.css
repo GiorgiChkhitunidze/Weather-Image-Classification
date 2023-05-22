@@ -26,14 +26,14 @@ body, html {
     right: 20%;
     background-color: #ffffff;
     width: 35%;
-    height: 65%;
+    height: max-content;
     min-width: 350px;
     position: relative;
     margin: auto;
     padding: 20px 10px;
     border-radius: 5px;
     box-shadow: 0 20px 35px rgba(0,0,0,0.05);
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 label {
@@ -51,11 +51,11 @@ label {
 }
 
 #L1 {
-    margin-bottom: 5px;
+    margin: 20px;
 }
 
 #L2 {
-    margin-top: 5px;
+    margin: 20px;
 }
 
 .container p{
