@@ -5,6 +5,7 @@ let numOfFiles = document.getElementById("num-of-files");
 function preview(){
     imageContainer.innerHTML = "";
     numOfFiles.textContent = ``;
+    numOfFiles.style.margin = '0'
 
     for(i of fileInput.files){
         let reader = new FileReader();
