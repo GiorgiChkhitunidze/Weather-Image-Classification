@@ -13,5 +13,6 @@ Here you can see how the app works:
 
 https://github.com/GiorgiChkhitunidze/Weather-Recognition/assets/112623714/dd261d3f-cc62-49cf-940b-27871363b45c
 
-## References:
-Model is trained on a <a href="https://www.kaggle.com/datasets/jehanbhathena/weather-dataset">Weather Image Recognition</a> from Kaggle.
+## References and Acknowledgements:
+- Model is trained on a <a href="https://www.kaggle.com/datasets/jehanbhathena/weather-dataset">Weather Image Recognition Dataset</a> on Kaggle.
+- App background image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1245817">Pexels</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1245817">Pixabay</a>
