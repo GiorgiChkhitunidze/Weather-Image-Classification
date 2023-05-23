@@ -39,7 +39,7 @@ body, html {
 label {
     display: block;
     position: relative;
-    background-color: #1c030b;
+    background-color: #724544;
     color: #ffffff;
     font-size: 18px;
     text-align: center;
@@ -60,6 +60,7 @@ label {
 
 .container p{
     text-align: center;
+    color: #724544;
     margin: 30px 0 30px 0;
 }
 
