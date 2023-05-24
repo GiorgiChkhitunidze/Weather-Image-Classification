@@ -18,3 +18,4 @@ https://github.com/GiorgiChkhitunidze/Weather-Image-Classification/assets/112623
 ## References and Acknowledgements:
 - Model is trained on a <a href="https://www.kaggle.com/datasets/jehanbhathena/weather-dataset">Weather Image Recognition Dataset</a> on Kaggle.
 - App background image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1245817">Pexels</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1245817">Pixabay</a>
+- Social media preview image by <a href="https://pixabay.com/users/cromaconceptovisual-4595909/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5940755">cromaconceptovisual</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5940755">Pixabay</a>
