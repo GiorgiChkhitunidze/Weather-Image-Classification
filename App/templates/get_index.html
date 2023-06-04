@@ -13,7 +13,7 @@
 <body>
     <!-- <div class="bg"></div> -->
     <img class="bg" src="{{ url_for('static', path='/woman-1245817.jpg') }}" alt="">
-    <div class="container">
+    <div class="container" id="container">
         <form action="/prediction/" enctype="multipart/form-data" method="post">
             <input name="files"  style="display:none" type="file" id="file" value="Upload Images" onchange="preview()"> 
             <label id="L1" for="file">
