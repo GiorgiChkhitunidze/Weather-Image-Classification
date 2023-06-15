@@ -6,6 +6,18 @@ This repo is divided in two parts:
 ### Train Weather Models
 I built custom model from scratch and compared it to several popular pretrained models such as: *Resnet18*, *Resnet50*, *Resnet152*, *Alexnet* and *Densenet*. Only showing those that produced most promising results. Eventually *Densenet* turned out to be the best.
 You can check *weather-prediction.ipynb* on this <a href="https://nbviewer.org/github/GiorgiChkhitunidze/Weather-Image-Classification/blob/main/weather-prediction.ipynb">nbviewer link</a> without any rendering problem.
+These are the whether Categories:
+- dew
+- fogsmog
+- frost
+- glaze
+- hail
+- lightning
+- rain
+- rainbow
+- rime
+- sandstorm
+- snow
 
 ### Built Weather Image Classifier App Using FastAPI
 In the folder ***App*** I built simple Weather Prediction App. I wrapped the best model into FastAPI and Styled using HTML/CSS/JavaScript. It can be run on uvicorn server.
